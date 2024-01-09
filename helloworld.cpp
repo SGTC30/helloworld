@@ -1,5 +1,5 @@
 // main.cpp
-#include "variables.h"
+#include <variables.h>
 #include <iostream> // Include the input/output library
 
 int main() // Define the main function
