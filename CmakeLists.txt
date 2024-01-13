@@ -1,8 +1,11 @@
 # CMakeLists.txt
 cmake_minimum_required(VERSION 3.10) # Specify the minimum version for CMake
 
+# This CMakeLists.txt file tells CMake to create a project called “helloworld”
 project(helloworld) # Define the project
 
+# The set(CMAKE_CXX_STANDARD 14) line tells CMake to use the C++14 standard when compiling the project.
 set(CMAKE_CXX_STANDARD 14) # Set the C++ standard to C++14
 
-add_executable(HelloWorld main.cpp) # Add an executable with the above sources
+# Add an executable target called “helloworld” that is built from the source file helloworld.cpp.
+add_executable(helloworld helloworld.cpp) # Add an executable with the above sources
