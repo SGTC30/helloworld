@@ -9,14 +9,19 @@ int main() // Define the main function
     
     // Use the variables defined in variables.h
     variable1 = 3;
-    variable2 = 2.62;
+    variable2 = 2.618;
     variable3 = 'phi';
+    variable4 = 5;
+    variable5 = 4.618;
+    variable6 = 'phi';    
 
     // Print the values of the variables
     std::cout << "Variable 1: " << variable1 << std::endl;
     std::cout << "Variable 2: " << variable2 << std::endl;
     std::cout << "Variable 3: " << variable3 << std::endl;
-
+    std::cout << "Variable 4: " << variable4 << std::endl;
+    std::cout << "Variable 5: " << variable5 << std::endl;
+    std::cout << "Variable 6: " << variable6 << std::endl;
     
     return 0; // Return 0 to indicate successful execution
     
