@@ -5,6 +5,7 @@
 int main() // Define the main function
 {
     std::cout << "Hello, World!" << std::endl; // Print "Hello, World!" to the standard output stream, followed by a newline
+    std::cout << "Hello, Milkyway Galaxy!" << std::endl;
     
     // Use the variables defined in variables.h
     variable1 = 3;
