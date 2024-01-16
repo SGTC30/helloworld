@@ -25,6 +25,7 @@ int main() // Define the main function
     std::cout << "Variable 4: " << variable4 << std::endl;
     std::cout << "Variable 5: " << variable5 << std::endl;
     std::cout << "Variable 6: " << variable6 << std::endl;
+    hellouniverse();
     
     return 0; // Return 0 to indicate successful execution
     
