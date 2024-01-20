@@ -1,4 +1,6 @@
 //THIS IS A HEADER FILE TO BE USED BY HELLOWORLD.CPP
+//From selecting 1 of 3 you choose which phot is displayed
+//Please add the three photo files to ensure successful compile and run
 
 #include <iostream>
 #include <fstream>
