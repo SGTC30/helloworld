@@ -5,10 +5,10 @@
 #define VARIABLES_H
 
 // Declare and initialize variables
-extern int variable1=5;
-extern float variable2=4.68;
-extern const char* variable3="phione";
-extern int variable4=8;
-extern float variable5=7.68;
-extern const char* variable6="phitwo";
+int variable1=5;
+float variable2=4.68;
+const char* variable3="phione";
+int variable4=8;
+float variable5=7.68;
+const char* variable6="phitwo";
 #endif
