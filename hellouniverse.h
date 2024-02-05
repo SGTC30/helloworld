@@ -79,5 +79,4 @@ void hellouniverse() {
     default:
       cout << "Invalid choice.\n";
   }
-  return 0;
 }
