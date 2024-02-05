@@ -7,8 +7,8 @@
 // Declare and initialize variables
 extern int variable1;
 extern float variable2;
-extern char variable3;
+extern const char* variable3;
 extern int variable4;
 extern float variable5;
-extern char variable6;
+extern const char* variable6;
 #endif
