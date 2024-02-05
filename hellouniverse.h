@@ -16,7 +16,7 @@ void hellouniverse() {
   // Use a switch statement to execute different actions based on the input
   switch (choice) {
     // If the input is 1, load a photo from a file named "photo1.jpg"
-    case 1:
+    case 1:{
       // Declare an object of the ifstream class to read from a file
       ifstream photo1;
       // Open the file in binary mode
@@ -34,9 +34,9 @@ void hellouniverse() {
         // Display an error message if the file is not found
         cout << "Photo 1 not found.\n";
       }
-      break;
+      break;}
     // If the input is 2, load a photo from a file named "photo2.jpg"
-    case 2:
+    case 2:{
       // Declare an object of the ifstream class to read from a file
       ifstream photo2;
       // Open the file in binary mode
@@ -54,9 +54,9 @@ void hellouniverse() {
         // Display an error message if the file is not found
         cout << "Photo 2 not found.\n";
       }
-      break;
+      break;}
     // If the input is 3, load a photo from a file named "photo3.jpg"
-    case 3:
+    case 3:{
       // Declare an object of the ifstream class to read from a file
       ifstream photo3;
       // Open the file in binary mode
@@ -74,7 +74,7 @@ void hellouniverse() {
         // Display an error message if the file is not found
         cout << "Photo 3 not found.\n";
       }
-      break;
+      break;}
     // If the input is not 1, 2, or 3, display an invalid choice message
     default:
       cout << "Invalid choice.\n";
