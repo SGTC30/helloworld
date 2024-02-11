@@ -5,7 +5,8 @@
 #include <iostream>
 #include <fstream>
 // Include the Qt headers
-#include <QApplication>
+//added QtWidgets
+#include <QtWidgets/QApplication>
 #include <QLabel>
 #include <QPixmap>
 using namespace std;
