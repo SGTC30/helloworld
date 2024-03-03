@@ -13,10 +13,10 @@ int main() // Define the main function
     /* Use the variables defined in variables.h
     variable1 = 3;
     variable2 = 2.618;
-    variable3 = "phi";
+    variable3 = "phione";
     variable4 = 5;
     variable5 = 4.618;
-    variable6 = "phi";    */
+    variable6 = "phitwo";    */
 
     // Print the values of the variables
     std::cout << "Variable 1: " << variable1 << std::endl;
